@@ -1,0 +1,7 @@
+{
+  "name": "Horizon International School",
+  "description": "A modern, vibrant, and dynamic website for a forward-thinking international school focused on innovation and excellence.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
