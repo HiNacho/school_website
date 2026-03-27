@@ -1,13 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+
 
 # Run and deploy your app
 
 This contains everything you need to run your app locally.
 
 <div align="center">
-   <img src="src/assets/profile.jpeg" alt="Victor Iheanacho" width="80" style="border-radius: 50%; margin-top: 2em;"/>
+   <img src="src/assets/viktor_profile_pic.jpeg" alt="Victor Iheanacho" width="80" style="border-radius: 50%; margin-top: 2em;"/>
   
    <h1 align="center">Nacho Website 🚀</h1>
    <p align="center">
@@ -88,7 +86,7 @@ $ npm run dev
 ---
 
 <div align="center">
-   <img src="src/assets/profile.jpeg" alt="Victor Iheanacho" width="120" style="border-radius: 50%; margin-top: 2em;"/>
+   <img src="src/assets/viktor_profile_pic.jpeg" alt="Victor Iheanacho" width="120" style="border-radius: 50%; margin-top: 2em;"/>
    <br/>
    <b>Thanks for visiting my AI Lab! 🧠✨</b>
 </div>
