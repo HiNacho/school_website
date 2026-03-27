@@ -1,9 +1,3 @@
-
-
-# Run and deploy your app
-
-This contains everything you need to run your app locally.
-
 <div align="center">
    <img src="src/assets/viktor_profile_pic.jpeg" alt="Victor Iheanacho" width="80" style="border-radius: 50%; margin-top: 2em;"/>
   
