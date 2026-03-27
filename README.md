@@ -78,12 +78,12 @@ $ npm run dev
 - UI inspired by modern design systems and open-source projects.
 
 ---
-
 <div align="center">
-   <img src="src/assets/viktor_profile_pic.jpeg" alt="Victor Iheanacho" width="120" style="border-radius: 50%; margin-top: 2em;"/>
-   <br/>
-   <b>Thanks for visiting my AI Lab! 🧠✨</b>
+  <img src="src/assets/profile.jpeg" alt="Victor Iheanacho" width="120" style="border-radius: 50%; margin-top: 2em;"/>
+  <br/>
+  <b>Thanks for visiting my AI Lab! 🧠✨</b>
 </div>
+
 
 
 
