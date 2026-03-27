@@ -11,7 +11,7 @@ export function About() {
           <FadeIn>
             <h1 className="text-5xl md:text-7xl font-bold mb-6">Our Story & Mission</h1>
             <p className="text-xl text-white/70 max-w-2xl">
-              Horizon International School was founded on the belief that every child has the potential to lead and innovate.
+              Nacho Website was founded on the belief that every child has the potential to lead and innovate.
             </p>
           </FadeIn>
         </div>
@@ -49,7 +49,7 @@ export function About() {
         <div className="max-w-7xl mx-auto">
           <SectionTitle 
             title="Our Leadership Team" 
-            subtitle="Meet the visionaries behind Horizon International School."
+            subtitle="Meet the visionaries behind Nacho Website."
             centered
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -82,7 +82,7 @@ export function About() {
           <SectionTitle title="Our Journey" centered />
           <div className="space-y-12">
             {[
-              { year: "2004", title: "The Beginning", desc: "Horizon International School opened its doors with just 50 students." },
+              { year: "2004", title: "The Beginning", desc: "Nacho Website opened its doors with just 50 students." },
               { year: "2010", title: "Campus Expansion", desc: "We moved to our state-of-the-art campus in Global City." },
               { year: "2015", title: "STEM Excellence", desc: "Launched our award-winning STEM and Innovation program." },
               { year: "2024", title: "Global Recognition", desc: "Ranked among the top 10 international schools in the region." },

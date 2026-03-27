@@ -27,7 +27,7 @@ export function Contact() {
               {[
                 { icon: <MapPin className="text-primary" />, title: "Visit Us", content: "123 Education Excellence Way, Global City, GC 54321" },
                 { icon: <Phone className="text-primary" />, title: "Call Us", content: "+1 (555) 123-4567" },
-                { icon: <Mail className="text-primary" />, title: "Email Us", content: "info@horizon-intl.edu" },
+                { icon: <Mail className="text-primary" />, title: "Email Us", content: "info@nacho-website.com" },
                 { icon: <Clock className="text-primary" />, title: "Office Hours", content: "Mon - Fri: 8:00 AM - 4:30 PM" },
               ].map((item, i) => (
                 <FadeIn key={i} delay={i * 0.1} className="flex gap-6">

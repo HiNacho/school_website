@@ -28,7 +28,7 @@ export function Gallery() {
         <div className="max-w-7xl mx-auto">
           <SectionTitle 
             title="School Gallery" 
-            subtitle="Take a glimpse into the vibrant life at Horizon International School."
+            subtitle="Take a glimpse into the vibrant life at Nacho Website."
             centered
           />
 

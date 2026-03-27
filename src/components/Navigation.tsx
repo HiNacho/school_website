@@ -54,7 +54,7 @@ export function Navbar() {
             "font-display font-bold text-xl tracking-tight",
             isScrolled ? "text-primary" : "text-white"
           )}>
-            HORIZON <span className="text-accent font-light">INTL</span>
+            NACHO <span className="text-accent font-light">WEBSITE</span>
           </span>
         </Link>
 
@@ -66,14 +66,12 @@ export function Navbar() {
                 to={link.href}
                 className={cn(
                   "text-sm font-medium transition-colors hover:text-accent flex items-center gap-1",
-                  isScrolled ? "text-slate-700" : "text-white/90",
-                  location.pathname === link.href && "text-accent"
+                  location.pathname === link.href ? "text-accent" : "text-slate-800"
                 )}
               >
                 {link.name}
                 {link.dropdown && <ChevronDown size={14} />}
               </Link>
-              
               {link.dropdown && (
                 <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-xl border border-slate-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                   <div className="py-2">
@@ -175,7 +173,7 @@ export function Footer() {
               <GraduationCap size={24} />
             </div>
             <span className="font-display font-bold text-xl tracking-tight">
-              HORIZON <span className="text-accent font-light">INTL</span>
+              NACHO <span className="text-accent font-light">WEBSITE</span>
             </span>
           </Link>
           <p className="text-slate-400 text-sm leading-relaxed">
@@ -232,13 +230,13 @@ export function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail size={18} className="text-accent shrink-0" />
-              <span>admissions@horizon-intl.edu</span>
+              <span>admissions@nacho-website.com</span>
             </li>
           </ul>
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-slate-800 text-center text-slate-500 text-xs">
-        <p>© {new Date().getFullYear()} Horizon International School. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Nacho Website. All rights reserved.</p>
       </div>
     </footer>
   );

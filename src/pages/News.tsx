@@ -5,7 +5,7 @@ import { Calendar, ArrowRight } from 'lucide-react';
 const newsItems = [
   {
     id: 1,
-    title: "Horizon Students Win Regional Science Fair",
+    title: "Nacho Website Students Win Regional Science Fair",
     date: "Oct 15, 2024",
     category: "Achievement",
     img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600",
@@ -44,7 +44,7 @@ export function News() {
         <div className="max-w-7xl mx-auto">
           <SectionTitle 
             title="News & Events" 
-            subtitle="Stay updated with the latest happenings and achievements at Horizon International."
+            subtitle="Stay updated with the latest happenings and achievements at Nacho Website."
             centered
           />
 

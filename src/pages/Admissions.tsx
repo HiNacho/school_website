@@ -22,7 +22,7 @@ export function Admissions() {
         <div className="max-w-7xl mx-auto">
           <SectionTitle 
             title="How to Apply" 
-            subtitle="Our simple 4-step process to join Horizon International School."
+            subtitle="Our simple 4-step process to join Nacho Website."
             centered
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

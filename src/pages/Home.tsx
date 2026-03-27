@@ -114,7 +114,7 @@ export function Home() {
           </div>
           <div className="lg:w-1/2">
             <SectionTitle 
-              title="Welcome to Horizon International School" 
+              title="Welcome to Nacho Website" 
               subtitle="We are dedicated to providing a transformative educational experience that nurtures curiosity and fosters leadership."
             />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
@@ -184,8 +184,8 @@ export function Home() {
       <section className="py-24 px-6 bg-primary text-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto relative z-10">
           <SectionTitle 
-            title="Why Choose Horizon International?" 
-            subtitle="We provide more than just an education; we provide a launchpad for life."
+            title={<span className="text-white">Why Choose Nacho Intl.</span>} 
+            subtitle={<span className="text-accent">We provide more than just an education; we provide a launchpad for life.</span>}
             centered
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -266,7 +266,7 @@ export function Home() {
         <div className="max-w-7xl mx-auto">
           <SectionTitle 
             title="What Our Community Says" 
-            subtitle="Hear from the parents and students who make Horizon International special."
+            subtitle="Hear from the parents and students who make Nacho Website special."
             centered
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -286,7 +286,7 @@ export function Home() {
               { 
                 name: "Sophia Chen", 
                 role: "Alumni", 
-                text: "Horizon prepared me perfectly for university. The global perspective I gained here has been invaluable in my career.",
+                text: "Nacho Website prepared me perfectly for university. The global perspective I gained here has been invaluable in my career.",
                 img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100"
               },
             ].map((t, i) => (
