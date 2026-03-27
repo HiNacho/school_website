@@ -41,7 +41,7 @@ Nacho Website is a modern, personal portfolio website built to showcase my work,
 
 ```bash
 # Clone the repository
-$ git clone <https://github.com/HiNacho/Nacho_ai_lab.git>
+$ git clone <https://github.com/HiNacho/school_website.git>
 $ cd <Nacho_ai_lab>
 
 # Install dependencies
